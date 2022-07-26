@@ -1,0 +1,112 @@
+/* Body */
+html, body {
+  background-color: #EBEBEB;
+  font-family: 'Eczar', 'Noto Sans SC', 'Helvetica';
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+/* Pages */
+.pages {
+  margin-left: 2em;
+}
+
+.page {
+  height: 100vh;
+}
+
+.page-content {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.headings {
+  color: black;
+  font-size: 1.5em;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.headings:hover {
+  color: rgb(227, 218, 218);
+}
+
+@media (min-width: 768px) {
+  .pages {
+    margin-left: 10em;
+  }
+}
+
+
+/* Intro Page */
+.heading-first {
+  font-size: 4em;
+  margin: 1em 0 0.5em;
+}
+
+.heading-second {
+  font-size: 2em;
+}
+
+.heading-third {
+  font-size: 1.5em;
+}
+
+.ext-links {
+  color: black;
+  font-size: 1.5em;
+  margin: 0 0.5em 0 0;
+}
+
+
+/* About Page */
+.about-text {
+  font-size: 1.2em;
+}
+
+/* Project Page */
+
+.collapsible {
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid rgb(40, 39, 39);
+  border-top: 2px solid rgb(40, 39, 39);
+  box-shadow: 2px 2px 1px black, 2px 2px 1px black;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 28px;
+  padding: 5px 20px;
+  text-align: left;
+  width: 60%;
+}
+
+.active, .collapsible:hover {
+  background-color: #c9c3c3;
+}
+
+.collap-content {
+  background-color: inherit;
+  overflow: none;
+  padding: 0 20px;
+  width: 50%;
+}
+
+.project-item {
+  margin: 0 0 2em;
+}
+
+.project-img {
+  border-radius: 20px;
+  width: 25vw;
+}
+
+.hide {
+  display: none;
+}
