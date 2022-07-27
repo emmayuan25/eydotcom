@@ -82,12 +82,12 @@ html, body {
 .collap-content {
   background-color: inherit;
   overflow: none;
-  padding: 0 20px;
+  padding-bottom: 5em;
   width: 60vw;
 }
 
 .project-item {
-  margin: 0 0 7em;
+  margin: 0 0 2em;
 }
 
 .project-img {
