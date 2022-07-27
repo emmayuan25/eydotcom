@@ -7,15 +7,9 @@ html, body {
   scroll-behavior: smooth;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100vw;
-}
-
 /* Pages */
 .pages {
-  margin-left: 2em;
+  margin-left: 5em;
 }
 
 .page {
@@ -23,8 +17,7 @@ html, body {
 }
 
 .page-content {
-  padding-top: 100px;
-  padding-left: 50px;
+  padding-top: 20vh;
 }
 
 .headings {
@@ -38,16 +31,10 @@ html, body {
   color: rgb(227, 218, 218);
 }
 
-@media (min-width: 768px) {
-  .pages {
-    margin-left: 10em;
-  }
-}
-
 
 /* Intro Page */
 .heading-first {
-  font-size: 4em;
+  font-size: 8em;
   margin: 1em 0 0.5em;
 }
 
@@ -56,19 +43,19 @@ html, body {
 }
 
 .heading-third {
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 .ext-links {
   color: black;
-  font-size: 1.5em;
+  font-size: 3em;
   margin: 0 0.5em 0 0;
 }
 
 
 /* About Page */
 .about-text {
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 /* Project Page */
@@ -79,6 +66,7 @@ html, body {
   border-bottom: 2px solid rgb(40, 39, 39);
   border-top: 2px solid rgb(40, 39, 39);
   box-shadow: 2px 2px 1px black, 2px 2px 1px black;
+  color: black;
   cursor: pointer;
   font-family: inherit;
   font-size: 28px;
@@ -109,4 +97,37 @@ html, body {
 
 .hide {
   display: none;
+}
+
+@media (min-width: 768px) {
+  .page-content {
+    padding-top: 20vh;
+  }
+
+  .heading-first {
+    font-size: 4em;
+    margin: 1em 0 0.5em;
+  }
+  
+  .heading-second {
+    font-size: 2em;
+  }
+  
+  .heading-third {
+    font-size: 1.5em;
+  }
+
+  .pages {
+    margin-left: 10em;
+  }
+
+  .ext-links {
+    color: black;
+    font-size: 1.5em;
+    margin: 0 0.5em 0 0;
+  }
+
+  .about-text {
+    font-size: 1.2em;
+  }
 }
