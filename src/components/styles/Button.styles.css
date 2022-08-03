@@ -1,0 +1,13 @@
+.button-tag-container {
+    border: 2px solid rgb(180, 180, 180);
+    box-shadow: 2px 2px 1px  rgb(180, 180, 180), 2px 2px 1px 1px rgb(180, 180, 180);
+    color: rgb(85, 85, 85);
+    font-size: 0.8em;
+    height: 2em;
+    margin: 1.5em 0.5em 0.5em 0;
+    padding: 0.1em;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 5em;
+}

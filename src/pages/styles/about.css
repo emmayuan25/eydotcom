@@ -1,0 +1,24 @@
+.about-container {
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 1px 1px #000, 2px 2px 1px 1px #000;
+    width: 60vw;
+    margin: 13vh 20vw 0;
+    padding: 2em;
+}
+
+.intro-text {
+    font-size: 1.5em;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
