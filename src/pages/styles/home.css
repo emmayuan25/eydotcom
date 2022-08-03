@@ -1,0 +1,15 @@
+.page-content {
+    margin: 20vh 10vw;
+}
+
+.hello-text {
+    font-size: 1.5em;
+}
+
+.welcome-text {
+    font-size: 3em;
+}
+
+.underline {
+    text-decoration: underline;
+}
