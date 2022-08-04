@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0124898.css",
+    "main.js": "/static/js/main.01404a01.js",
+    "static/media/soulelem.png": "/static/media/soulelem.e02ffcb1bf6584e1c013.png",
+    "static/media/tripbud.png": "/static/media/tripbud.5c9324f2f24fd39c773a.png",
+    "static/media/search-chicago-art.png": "/static/media/search-chicago-art.51166a4810c943c07544.png",
+    "index.html": "/index.html",
+    "main.c0124898.css.map": "/static/css/main.c0124898.css.map",
+    "main.01404a01.js.map": "/static/js/main.01404a01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0124898.css",
+    "static/js/main.01404a01.js"
+  ]
+}
