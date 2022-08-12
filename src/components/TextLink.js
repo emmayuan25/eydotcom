@@ -1,10 +1,9 @@
 import React from 'react';
-import "./styles/TextLink.styles.css";
 
 function TextLink(props) {
   return (
     <a
-        className="front-link"
+        className="text-black text-2xl mr-8 underline"
         href={props.link}
     >
         {props.text}

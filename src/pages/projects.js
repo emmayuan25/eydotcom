@@ -10,17 +10,17 @@ export default function projects() {
   return (
     <div className='page'>
         <Header />
-        <div className='projects-container'>
+        <div className='w-screen flex flex-row flex-wrap pl-16 pt-8'>
             <Box 
                 title="TripBud"
                 description="best plan buddy for travelers in budget"
-                tags="#Java #JavaScript #GoogleCloud #AppEngine"
+                tags="#Java #JavaScript #GoogleCloudPlatform #AppEngine"
                 image={TripBud}
             />
             <Box 
                 title="Soul Element Reveal" 
                 description="find out about your inner soul"
-                tags="#JavaScript #PHP #MySQL #HTML/CSS"
+                tags="#JavaScript #PHP #MySQL"
                 image={SoulEle}
             />
             <Box 

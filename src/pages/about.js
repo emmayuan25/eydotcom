@@ -44,7 +44,6 @@ export default function about() {
             <Button text="HTML/CSS" />
             <Button text="Java" />
             <Button text="Python" />
-            <Button text="Java" />
           </div>
 
         </div>
