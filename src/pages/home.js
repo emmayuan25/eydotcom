@@ -7,7 +7,7 @@ const home = () => {
   return (
     <div className='page-content'>
         <p className="hello-text">Hello, 你好</p>
-        <p className='welcome-text'>you've reached <span className='underline'>emma yuan</span> dot com
+        <p className='welcome-text my-8'>you've reached <span className='underline'>emma yuan</span> dot com
         </p>
         <TextLink text="About" link="/about" />
         <TextLink text="Projects" link="/projects" />

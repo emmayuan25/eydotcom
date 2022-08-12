@@ -8,15 +8,11 @@
     border: 2px solid black;
     box-shadow: 5px 5px 1px #000, 2px 2px 1px 1px rgba(0,0,0,1);
     cursor: pointer;
-    height: 13em;
+    height: 15em;
     line-height: 1.2;
     margin: 1em;
     padding: 1em;
-    width: 13em;
-}
-
-.box-container:hover {
-    background-color: rgb(227, 219, 209);
+    width: 15em;
 }
 
 .project-name {
@@ -25,13 +21,6 @@
     margin: 15% 0 0.3em 0;
 }
 
-.project-description {
-    color: rgb(99, 99, 99);
-    margin: 0 0 0.3em;
-}
-
-.project-tags {
-    color: rgb(172, 171, 171);
-    font-size: 0.8em;
-    margin: 0;
+.ReactModal__Content--after-open {
+    overflow-y: scroll !important;
 }
