@@ -46,7 +46,7 @@ export default function projects() {
                 title="Search Chicago Art" 
                 tags="#ReactHooks"
                 time="May 2022"
-                link="http://emmayuan.com/search-chicago-art/"
+                link="http://search-chicago-art.emmayuan.com/"
                 github="https://github.com/emmayuan25/search-chicago-art"
                 description="get a piece of art from Chicago Institute of Art"
                 detail1="react app using react hooks"
