@@ -13,8 +13,8 @@ export default function about() {
         <div className='about-container'>
           <p className='intro-text mb-4'>Hi there, it's Emma =]</p>
           <p className='mb-2'>I am a Junior at University of Southern California pursuing a Bachelor of Science in Computer Science and a Bachelor of Arts in Cognitive Science.</p>
-          <p className='mb-2'>Most of my experiences has been around full-stack web development, with more emphasis on the frontend side, but I am open to learning any kind of new technologies!</p>
-          <p className='mb-2'>For the upcoming school year, I'll be looking for an internship in software engineering for Summer 2023, and I'm thinking about learning mobile development and dive deeper into the backend side. Connect me via LinkedIn or Email!</p>
+          <p className='mb-2'>Most of my experiences has been around full-stack web development, with more emphasis on the frontend side, but I am open to learning any kinds of new technologies!</p>
+          <p className='mb-2'>For the upcoming school year,I'm thinking about learning game development and dive deeper into the backend side. Connect me via LinkedIn or Email! I will be working as a summer intern at Salesforce @ San Francisco, please reach out for any Full-Time SWE Opportunities.</p>
           <p className='mb-4'>Fun Fact: I failed the behind-the-wheel test three times and no, getting a DL is not on my wish list this year. But I do enjoy outdoor activities and exploring California, so if you have a car and enjoys hiking with awkward convos, hit me up and I'll buy you lunch in the campsite of Mt. Whitney :p</p>
 
           <div className='link-container'>
